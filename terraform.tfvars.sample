@@ -1,0 +1,21 @@
+common = {
+  project     = ""
+  region      = ""
+  zone        = ""
+  prefix      = ""
+  environment = ""
+}
+
+storage = {
+ location = ""
+}
+
+lb = {
+   custom_domain = "" 
+}
+
+registory = {
+     location = ""
+}
+
+github_repositories = []
