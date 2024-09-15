@@ -16,6 +16,11 @@ variable "common" {
   description = "Common variables for all environments"
 }
 
+variable "custom_domain" {
+  type = string
+  
+}
+
 variable "members" {
   type = list(string)
 }

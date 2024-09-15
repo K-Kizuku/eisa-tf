@@ -27,6 +27,7 @@ module "storage" {
   common  = var.common
   storage = var.storage
   members = module.cloud_run.cloud_run_service_accounts
+  custom_domain = var.lb.custom_domain
 }
 
 module "registry" {
